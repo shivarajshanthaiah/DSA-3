@@ -55,5 +55,4 @@ func main() {
 
 	bfs(tree)
 	fmt.Println()
-
 }
