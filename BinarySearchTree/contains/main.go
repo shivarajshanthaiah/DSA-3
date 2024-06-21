@@ -47,5 +47,5 @@ func main() {
 	tree.insert(45)
 	tree.insert(78)
 
-	fmt.Println(tree.contains(7))
+	fmt.Println(tree.contains(50))
 }

@@ -43,6 +43,7 @@ func isValid(node *TreeNode, min, max int) bool {
 	return isValid(node.left, min, node.value) && isValid(node.right, node.value, max)
 }
 
+
 func main() {
 	tree := &TreeNode{value: 50}
 	tree.insert(40)

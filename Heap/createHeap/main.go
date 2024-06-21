@@ -36,7 +36,7 @@ func buildHeap(arr []int) {
 
 func main() {
 	arr := []int{12, 33, 11, 5, 6, 7, 9, 20}
-	fmt.Println("origina arry :", arr)
+	fmt.Println("original arry :", arr)
 	buildHeap(arr)
 	fmt.Println("Heapified array :", arr)
 
