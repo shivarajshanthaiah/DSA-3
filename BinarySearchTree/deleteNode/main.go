@@ -65,7 +65,7 @@ func findMin(root *TreeNode) *TreeNode {
 	for temp.left != nil {
 		temp = temp.left
 	}
-	return temp.left
+	return temp
 }
 
 func main() {
